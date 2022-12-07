@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/txtLatitude"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="10sp"
+            android:hint="Latitude"
+            android:textAlignment="center"
+            android:textColorHint="#79EA75"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtLongitude"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="10sp"
+            android:hint="Longitude"
+            android:textAlignment="center"
+            android:textColorHint="#79EA75"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:id="@+id/txtCatch"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="10sp"
+            android:textAlignment="center"
+            android:textColorHint="#9EC50E"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtCatch_Lati"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:autoSizeMaxTextSize="20sp"
+            android:autoSizeMinTextSize="10sp"
+            android:textAlignment="center"
+            android:textColorHint="#9EC50E"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="350dp"
+            android:backgroundTint="#F1FF23"
+            android:elevation="45dp"
+            android:text="GET LOCATION"
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            app:icon="@android:drawable/ic_menu_mylocation" />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>
